@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="blueTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="color_back">#CDDDFC</item>
+        <item name="color_head">#A56E81DE</item>
+        <item name="color_btn">#899FFB</item>
+        <item name="color_focus">#3F51B5</item>
+        <item name="drawable_seekbar_progress">@drawable/seekbar_progress</item>
+        <item name="mipmap_seekbar_thumb">@mipmap/thumb</item>
+        <item name="mipmap_play">@mipmap/play</item>
+        <item name="mipmap_pause">@mipmap/pause</item>
+        <item name="mipmap_front">@mipmap/front</item>
+        <item name="mipmap_next">@mipmap/next</item>
+        <item name="sound_level">@mipmap/sound</item>
+    </style>
+
+    <style name="pinkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="color_back">#FFB7CD</item>
+        <item name="color_head">#FF7DA8</item>
+        <item name="color_btn">#FE8499</item>
+        <item name="color_focus">#FF3673</item>
+        <item name="drawable_seekbar_progress">@drawable/seekbar_progress_pink</item>
+        <item name="mipmap_seekbar_thumb">@mipmap/thumb_pink</item>
+        <item name="mipmap_play">@mipmap/play_pink</item>
+        <item name="mipmap_pause">@mipmap/pause_pink</item>
+        <item name="mipmap_front">@mipmap/front_pink</item>
+        <item name="mipmap_next">@mipmap/next_pink</item>
+        <item name="sound_level">@mipmap/sound_pink</item>
+    </style>
+
+    <style name="greenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="color_back">#8AE091</item>
+        <item name="color_head">#27BEAF</item>
+        <item name="color_btn">#4CAF50</item>
+        <item name="color_focus">#009688</item>
+        <item name="drawable_seekbar_progress">@drawable/seekbar_progress_green</item>
+        <item name="mipmap_seekbar_thumb">@mipmap/thumb_green</item>
+        <item name="mipmap_play">@mipmap/play_green</item>
+        <item name="mipmap_pause">@mipmap/pause_green</item>
+        <item name="mipmap_front">@mipmap/front_green</item>
+        <item name="mipmap_next">@mipmap/next_green</item>
+        <item name="sound_level">@mipmap/sound_green</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color_back" format="color"></attr>
+    <attr name="color_head" format="color"></attr>
+    <attr name="color_btn" format="color"></attr>
+    <attr name="color_focus" format="color"></attr>
+
+    <attr name="drawable_seekbar_progress" format="reference"/>  <!-- 进度条 -->
+    <attr name="mipmap_seekbar_thumb" format="reference" />   <!-- 进度条上面的拖动点 -->
+
+    <attr name="mipmap_play" format="reference" />  <!-- 播放键 -->
+    <attr name="mipmap_pause" format="reference"/>   <!-- 暂停键 -->
+    <attr name="mipmap_front" format="reference" />  <!-- 上一首 -->
+    <attr name="mipmap_next" format="reference" />  <!-- 下一首 -->
+    <attr name="sound_level" format="reference" />  <!-- 音量键 -->
+
+    <!--
+    <attr name="popupwindow_bg" format="reference"/>
+    <attr name="dialogactivity_bg" format="reference"/>
+    <attr name="btn_submit_bg" format="reference"/>
+    <attr name="indicate_image" format="reference" />
+    -->
+
+</resources>

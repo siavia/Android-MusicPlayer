@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <!-- layout_gravity让textview在父布局居中
+    gravity让字在textview居中
+    android:ellipsize="end" 使得字过长时出现省略号
+    android:maxLines="1"  使得字在一行中  -->
+    <TextView
+        android:id="@+id/item_tv_index"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="18sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/item_tv_songname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentTop="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="歌名"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/item_tv_songname"
+            android:layout_marginBottom="5dp"
+            >
+            <TextView
+                android:id="@+id/item_tv_singer"
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:gravity="bottom"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="歌手111111111111111111111111111111123456789"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/item_tv_duration"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:gravity="bottom"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="time"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
